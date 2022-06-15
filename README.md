@@ -3,7 +3,7 @@ An app, which performs functions of simple matrix calculator.
 
 ## Structure of the project ##
 This app consists of 3 main parts:
- * 1st one for operations with single matrix:
+ * ### 1st one for operations with single matrix:
    * calculate determinant.
    * calculate rank.
    * transpose.
@@ -11,19 +11,19 @@ This app consists of 3 main parts:
    * multiply matrix by scalar.
    * fill the matrix with equal values.
  
- * 2nd one for operations with two matrixes:
+ * ### 2nd one for operations with two matrixes:
    * addition.
    * subtraction.
    * multiplication.
    * fill matrixes with equal values.
 
- * 3rd one for solving system of linear equations.
+ * ### 3rd one for solving system of linear equations.
 
 Main window:
 
 ![](images/mainwindow.jpg)
 
-Briefly about each part:
+### Briefly about each part:
 
 1. window for the 1st part:
 
@@ -51,14 +51,44 @@ Briefly about each part:
 | `checkIfSymmetrical()` | check matrix symmetry | O(N^2) |
 | `transformMatrix()` | transform matrix to reduced row echelon form (diagonal view) | O(N^3) |
 
-## Math component ##
-
-add later
-
 ## Description of the app's work ##
-
-add gif, screens
-
+ * ### 1st part:
+   * calculate determinant:
+   ![](images/determinant.jpg)
+   
+   * calculate rank:
+   ![](images/rank.jpg)
+   
+   * check symmetry of the matrix:
+   ![](images/checksymmetry.jpg)
+   
+   * transpose matrix:
+   ![](images/transpose.jpg)
+   
+   * multiply matrix by scalar:
+   ![](images/scalarmultiply.jpg)
+   
+   * fill the matrix with equal values:
+ 
+   ![](images/fill.jpg)
+   
+ * ### 2nd part:
+   * addition:
+   ![](images/addition.jpg)
+   
+   * subtraction:
+   ![](images/subtraction.jpg)
+   
+   * multiplication:
+   ![](images/multiplication.jpg)
+   
+ * ### 3rd part:
+   * example 1:
+   ![](images/sle1.jpg)
+   
+   * example 2:
+   ![](images/sle2.jpg)
+ 
 ## Motivation ##
 A few reasons of creating this app:
  * learn more about linear algebra, especially matrixes.
